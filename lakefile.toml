@@ -1,0 +1,5 @@
+name = "misleanding"
+defaultTargets = ["Examples"]
+
+[[lean_lib]]
+name = "Examples"

@@ -1,1 +1,9 @@
 misleanding: Misleading Lean statements
+
+
+Install Lean [0], then run examples:
+
+lean Examples.lean
+
+
+[0]: https://github.com/leanprover/lean4
