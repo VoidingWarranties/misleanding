@@ -27,3 +27,17 @@ theorem all_horses_same_color (hοrses : List Horse) :
 -- 'all_horses_same_color' does not depend on any axioms
 #print axioms all_horses_same_color
 end AllHorsesSameColor
+
+
+section XInListWithoutX
+def natsLessThan3 : List Nat := [
+  0,
+  1,
+  2,
+  /- natural numbers less than ⁧-/ 3
+]
+-- The list of natural numbers less than 3 includes 3.
+theorem three_mem : natsLessThan3.contains 3 = true := rfl
+-- 'three_mem' does not depend on any axioms
+#print axioms three_mem
+end XInListWithoutX
